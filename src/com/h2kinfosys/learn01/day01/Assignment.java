@@ -6,7 +6,7 @@ public class Assignment {
 		int firstData = 1000;
 		int secondData = 200;
 		int thirdData = 300;
-		int forthdata = 400;
+		int forthdata = 4000;
 		
 		// Compare three variables and find biggest number
 		if((firstData > secondData) && (firstData > thirdData)) {
