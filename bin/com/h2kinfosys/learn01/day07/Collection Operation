@@ -1,0 +1,30 @@
+Collection c = {1,2,3,4}
+Collection d = {A,B,C}
+Collection e = {3,4}
+
+c.add(5)
+c = {1,2,3,4,5} 
+c.contains(3) = true
+c.contains(6) = false
+
+c.isEmpty() = false
+
+c.remove(1)
+c = {2,3,4,5}
+
+c.size() = 4
+c.clear()
+c= {}
+c.isEmpty() = true
+
+c.containsAll(d) = false
+c.containsAll(e) = true
+
+
+c.addAll(d) = {1,2,3,4,A,B,C}
+
+c.removeAll(d) = {1,2,3,4}
+
+c.retainAll(e) = {3,4}
+
+
